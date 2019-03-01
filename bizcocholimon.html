@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<title>Las recetas de la abuela</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style rel="stylesheet" type="text/css">	
+		#foot {
+			border-bottom: solid 1px gray;
+		}
+		
+		ul.dropdown-menu {
+			background-color: rgb(52,57,62);
+		}
+	
+		ul.dropdown-menu a:link {
+			color: rgb(147,150,175);
+		}
+	
+		ul.dropdown-menu a:hover {
+			color: white;
+			text-decoration: none
+		}
+        
+        ul.dropdown-menu a:visited {
+            color: rgb(147,150,175);
+        }
+		
+		#imagen {
+			float:left;
+			width: 33%;
+		}
+		
+		#ingredientes {
+			float: right;
+			width: 66%
+		}
+		
+		p {
+			text-align: justify;
+		}
+		
+		#receta {
+			float: right
+		}	
+	</style>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			
+			<div class="container">
+				<img class="float" src="images/logo.png" alt="Chania" width="175" height="140">
+				<h1 class="text-center">LAS RECETAS DE LA ABUELA</h1>
+			</div>
+			
+		</header>
+		
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+			<!-- Links -->
+			<ul class="navbar-nav">
+				
+				<ul class="nav navbar-nav">
+				<a class="navbar-brand" href="index.html">Home</a>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Legumbres y verduras</a>
+					<ul class="dropdown-menu">
+					<li><a href="croquetasespinacas.html">Croquetas de espinacas y queso</a></li>
+					<li><a href="hummus.html">Hummus</a></li>
+					<li><a href="tortillapatatas.html">Tortilla de patatas</a></li>
+					<li><a href="empanadaverduras.html">Empanada de verduras</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Carnes</a>
+						<ul class="dropdown-menu">
+						<li><a href="costillashorno.html">Costillas al horno</a></li>
+						<li><a href="polloarroz.html">Pollo con arroz</a></li>
+						<li><a href="callosmadrilena.html">Callos a la madrileña</a></li>
+						<li><a href="piernacorderoasada.html">Pierna de cordero asada</a></li>
+						</ul>
+				</li>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pescados</a>
+						<ul class="dropdown-menu">
+						<li><a href="bacalaogallega.html">Bacalao a la gallega</a></li>
+						<li><a href="lubinahorno.html">Lubina al horno</a></li>
+						<li><a href="sopapescado.html">Sopa de pescado</a></li>
+						<li><a href="bunuelosbacalao.html">Buñuelos de bacalao</a></li>
+						</ul>
+				</li>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Postres</a>
+						<ul class="dropdown-menu">
+						<li><a href="pestinos.html">Pestiños</a></li>
+						<li><a href="bizcocholimon.html">Bizcocho de limón</a></li>
+						<li><a href="natillas.html">Natillas</a></li>
+						<li><a href="arrozleche.html">Arroz con leche</a></li>
+						</ul>
+				</li>
+				</ul>
+			</ul>
+		</nav>
+		<br>
+		<div id="section1" class="container-fluid list-group-item-warning" style="padding-top:25px;padding-bottom:20px">
+			<h1 align="center">Bizcocho de Limón</h1>
+			<div id="imagen">
+	<!--aquí va la foto de la receta--><img src="images/bizcocholimon.jpg" alt="Carne1" class="img-thumbnail" class="form-inline" width="404" height="336">
+			</div>
+			<div class="d-block" id="ingredientes">         
+				<table class="table table-dark table-striped">
+					<thead>
+						<tr>
+							<th>Ingredientes</th>
+							<th>Cantidades</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Huevos</td>
+							<td>3 grandes o 4 medianos</td>
+						</tr>
+						<tr>
+							<td>Yogur</td>
+							<td>1 de limón</td>
+						</tr>
+						<tr>
+							<td>Azúcar</td>
+							<td>2 medidas de yogur</td>
+						</tr>
+						<tr>
+							<td>Harina</td>
+							<td>3 medidas de yogur</td>
+						</tr>
+						<tr>
+							<td>Aceite de Oliva Virgen Extra</td>
+							<td>1 medida de yogur</td>
+						</tr>
+						<tr>
+							<td>Levadura en Polvo</td>
+							<td>16g de polvo para hornear</td>
+						</tr>
+						<tr>
+							<td>Ralladura de Limón</td>
+							<td>Al gusto</td>
+						</tr>
+						<tr>
+							<td>Mantequilla y Harina</td>
+							<td>Para untar el molde</td>
+						</tr>
+						<tr>
+							<td>Azúcar Glass</td>
+							<td>Para decorar (opcional)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="d-block" style="padding-top: 560px"> <!--Aumentar el padding para que el texto se quede por debajo de la tabla-->
+				<p>Calentamos el horno a 150ºC.</p>
+				
+				<p>Batimos los huevos y agregamos el azúcar, el yogur, el aceite y la ralladura de limón. Unimos la harina con la levadura, añadimos a la mezcla anterior y batmios bien.</p>
+				
+				<p>Untamos un molde con mantequilla, espolvoreamos con harina y sacudimos para quitar lo que sobra.</p>
+				
+				<p>Si queremos que la levadura haga más efecto se deja reposar la masa durante 15 minutos antes de meter al horno.</p>
+				
+				<p>Estará listo cuando al pinchar con un palillo éste salga limpio. Compreuba de vez en cuando.</p>
+				
+				<p>Sacar y templar. Desmoldamos pasando un cuchillo por los bordes del molde. Se puede adornar espolvoreando azúcar glass por encima.</p>
+			</div>
+		</div>
+	</body>
+	
+	<div id="section2" class="container-fluid list-group-item-dark" style="padding-top:25px;padding-bottom:25px">
+	<footer>
+		<div class="d-block">
+			<table width="33%">
+				<tr><!--Javier-->
+					<td id="foot">Fco Javier González</td>
+					<td id="foot"><a href="https://github.com/FcoJavierGlez" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td id="foot"><a href="https://www.linkedin.com/in/francisco-javier-gonz%C3%A1lez-sabariego-51052a175/" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td id="foot"><a href="https://twitter.com/Fco_Javier_Glez" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td id="foot"><a href="mailto: FJGS_86@hotmail.com"><img src="images/hotmaillogo.png" alt="E-mail" width="30"></a></td><!--Correo-->
+				</tr>
+				<tr><!--José-->
+					<td id="foot">José Notario</td>
+					<td id="foot"><a href="https://github.com/kiptetole" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td id="foot"><a href="https://www.linkedin.com/in/jose-notario-millan-3b1216153/" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td id="foot"><a href="https://twitter.com/kiptetole?lang=es" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td id="foot"><a href="mailto: jonomi97@gmail.com"><img src="images/gmaillogo.svg" alt="E-mail" width="30"></a></td><!--Correo-->
+				</tr>
+				<tr><!--Cristina-->
+					<td id="foot">Cristina Prieto</td>
+					<td id="foot"><a href="https://github.com/Cristinaprja" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td id="foot"><a href="https://www.linkedin.com/in/cristina-prieto-jalao-97b757172" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td id="foot"><a href="https://twitter.com/cristinaprja?s=09" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td id="foot"><img src="images/gmaillogo.svg" alt="E-mail" width="30"></td><!--Correo-->
+				</tr>
+				<tr><!--Damián-->
+					<td>Damián J. Miquel</td>
+					<td><a href="https://github.com/damian-miquel" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td><a href="https://www.linkedin.com/in/damián-jesús-miquel-jiménez-149786172" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td><a href="https://twitter.com/damian_miquel?s=08" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td><a href="mailto: damian.miquel.jimenez@gmail.com"><img src="images/gmaillogo.svg" alt="E-mail" width="30"></a></td><!--Correo-->
+				</tr>
+			</table>
+		<br/>
+		Abuela Rigoberta&copy;
+		</div>
+		</footer>
+	</div>
+</html>

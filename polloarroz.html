@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<title>Las recetas de la abuela</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style rel="stylesheet" type="text/css">	
+		#foot {
+			border-bottom: solid 1px gray;
+		}
+		
+		ul.dropdown-menu {
+			background-color: rgb(52,57,62);
+		}
+	
+		ul.dropdown-menu a:link {
+			color: rgb(147,150,175);
+		}
+	
+		ul.dropdown-menu a:hover {
+			color: white;
+			text-decoration: none
+		}
+        
+        ul.dropdown-menu a:visited {
+            color: rgb(147,150,175);
+        }
+		
+		#imagen {
+			float:left;
+			width: 33%;
+		}
+		
+		#ingredientes {
+			float: right;
+			width: 66%
+		}
+		
+		p {
+			text-align: justify;
+		}
+		
+		#receta {
+			float: right
+		}	
+	</style>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			
+			<div class="container">
+				<img class="float" src="images/logo.png" alt="Chania" width="175" height="140">
+				<h1 class="text-center">LAS RECETAS DE LA ABUELA</h1>
+			</div>
+			
+		</header>
+		
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+			<!-- Links -->
+			<ul class="navbar-nav">
+				
+				<ul class="nav navbar-nav">
+				<a class="navbar-brand" href="index.html">Home</a>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Legumbres y verduras</a>
+					<ul class="dropdown-menu">
+					<li><a href="croquetasespinacas.html">Croquetas de espinacas y queso</a></li>
+					<li><a href="hummus.html">Hummus</a></li>
+					<li><a href="tortillapatatas.html">Tortilla de patatas</a></li>
+					<li><a href="empanadaverduras.html">Empanada de verduras</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Carnes</a>
+						<ul class="dropdown-menu">
+						<li><a href="costillashorno.html">Costillas al horno</a></li>
+						<li><a href="polloarroz.html">Pollo con arroz</a></li>
+						<li><a href="callosmadrilena.html">Callos a la madrileña</a></li>
+						<li><a href="piernacorderoasada.html">Pierna de cordero asada</a></li>
+						</ul>
+				</li>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pescados</a>
+						<ul class="dropdown-menu">
+						<li><a href="bacalaogallega.html">Bacalao a la gallega</a></li>
+						<li><a href="lubinahorno.html">Lubina al horno</a></li>
+						<li><a href="sopapescado.html">Sopa de pescado</a></li>
+						<li><a href="bunuelosbacalao.html">Buñuelos de bacalao</a></li>
+						</ul>
+				</li>
+				<li class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Postres</a>
+						<ul class="dropdown-menu">
+						<li><a href="pestinos.html">Pestiños</a></li>
+						<li><a href="bizcocholimon.html">Bizcocho de limón</a></li>
+						<li><a href="natillas.html">Natillas</a></li>
+						<li><a href="arrozleche.html">Arroz con leche</a></li>
+						</ul>
+				</li>
+				</ul>
+			</ul>
+		</nav>
+		<br>
+		<div id="section1" class="container-fluid list-group-item-danger" style="padding-top:25px;padding-bottom:20px">
+			<h1 align="center">Pollo con arroz</h1>
+			<div id="imagen">
+	<!--aquí va la foto de la receta--><img src="images/polloarroz.jpg" alt="Carne1" class="img-thumbnail" class="form-inline" width="404" height="336">
+			</div>
+			<div class="d-block" id="ingredientes">         
+				<table class="table table-dark table-striped">
+					<thead>
+						<tr>
+							<th>Ingredientes para 4 personas:</th>
+							<th>Cantidades</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Pollo troceado</td>
+							<td>1,7kg</td>
+						</tr>
+                        <tr>
+							<td>Cebolla grande</td>
+							<td>1 unidad</td>
+						</tr>
+                        <tr>
+							<td>Ajo</td>
+							<td>3 dientes</td>
+						</tr>
+                        <tr>
+							<td>Arroz de grano redondo</td>
+							<td>300 gr</td>
+						</tr>
+                        <tr>
+							<td>Vino blanco</td>
+							<td>250 ml</td>
+						</tr>
+                        <tr>
+							<td>Sal y tomillo</td>
+							<td>(Al gusto)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><br>
+			<div class="d-block" style="padding-top: 350px"> <!--Aumentar el padding para que el texto se quede por debajo de la tabla-->
+				<h3>Preparación del pollo:</h3>
+                <p>Limpiamos el pollo de restos de grasa y le retiramos la piel. En una olla expres calentamos un chorrito de aceite de oliva. Cuando el aceite esté caliente añadimos el pollo troceado y lo doramos por todos sus lados.</p>
+                <p>Cuando el pollo esté casi dorado, añadimos la cebolla pelada y cortada en 4 partes, los dientes de ajo pelados y enteros y el tomillo. Dejamos que se cocine 2 o 3 minutos y añadimos la sal y el vino blanco. Cocinamos durante 5 minutos hasta que el alcohol del vino se haya evaporado.</p>
+                <p>Tapamos la olla expres y cocinamos durante 20 minutos. Pasado este tiempo tendremos la carne de pollo tierna y con una abundante cantidad de salsa. Reservamos la carne y ponemos prácticamente toda la salsa en un cuenco. </p>
+                <p>En una cazuela calentamos un chorrito de aceite de oliva y un diente de ajo entero y pelado. Cuando el ajo esté dorado lo retiramos y añadimos el arroz. Rehogamos el arroz durante 2 o 3 minutos removiendo para que no se nos pegue a la cazuela. </p>
+                <p>Incorporamos el caldo del estofado de pollo y complementamos con agua si es necesario hasta conseguir 3 partes de líquido por una parte de arroz. </p><br>
+                <h3>Preparación del arroz:</h3>
+                <p>Cocinamos el arroz hasta que esté en su punto comprobando el punto de sal en la mitad de la cocción. Vamos probando el arroz. </p>
+                <p>Cada arroz es un mundo, si en vez del arroz de grano largo empleáis arroz redondo el resultado será mejor. Aunque un poco más de coste en la receta. Esta variedad se diferencia del resto por ser un grano que no se rompe en la cocción sino que se abomba. </p>
+                <p>Servimos el arroz junto con el pollo estofado. Se trata de un plato muy sabroso en la que toda la esencia del pollo impregna al arroz. </p>
+			</div>
+		</div>
+	</body>
+	
+	<div id="section2" class="container-fluid list-group-item-dark" style="padding-top:25px;padding-bottom:25px">
+	<footer>
+		<div class="d-block">
+			<table width="33%">
+				<tr><!--Javier-->
+					<td id="foot">Fco Javier González</td>
+					<td id="foot"><a href="https://github.com/FcoJavierGlez" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td id="foot"><a href="https://www.linkedin.com/in/francisco-javier-gonz%C3%A1lez-sabariego-51052a175/" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td id="foot"><a href="https://twitter.com/Fco_Javier_Glez" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td id="foot"><a href="mailto: FJGS_86@hotmail.com"><img src="images/hotmaillogo.png" alt="E-mail" width="30"></a></td><!--Correo-->
+				</tr>
+				<tr><!--José-->
+					<td id="foot">José Notario</td>
+					<td id="foot"><a href="https://github.com/kiptetole" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td id="foot"><a href="https://www.linkedin.com/in/jose-notario-millan-3b1216153/" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td id="foot"><a href="https://twitter.com/kiptetole?lang=es" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td id="foot"><a href="mailto: cristinapj29@gmail.com"><img src="images/gmaillogo.svg" alt="E-mail" width="30"></a></td><!--Correo-->
+				</tr>
+				<tr><!--Cristina-->
+					<td id="foot">Cristina Prieto</td>
+					<td id="foot"><a href="https://github.com/Cristinaprja" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td id="foot"><a href="https://www.linkedin.com/in/cristina-prieto-jalao-97b757172" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td id="foot"><a href="https://twitter.com/cristinaprja?s=09" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td id="foot"><img src="images/gmaillogo.svg" alt="E-mail" width="30"></td><!--Correo-->
+				</tr>
+				<tr><!--Damián-->
+					<td>Damián J. Miquel</td>
+					<td><a href="https://github.com/damian-miquel" target="_blank"><img src="images/gitlogo.svg" alt="GitHub" width="30"></a></td><!--GitHub-->
+					<td><a href="https://www.linkedin.com/in/damián-jesús-miquel-jiménez-149786172" target="_blank"><img src="images/linklogo.png" alt="LinkedIn" width="30"></a></td><!--LinkedIn-->
+					<td><a href="https://twitter.com/damian_miquel?s=08" target="_blank"><img src="images/tweetlogo.png" alt="Twitter" width="30"></a></td><!--Twitter-->
+					<td><a href="mailto: damian.miquel.jimenez@gmail.com"><img src="images/gmaillogo.svg" alt="E-mail" width="30"></a></td><!--Correo-->
+				</tr>
+			</table>
+		<br/>
+		Abuela Rigoberta&copy;
+		</div>
+		</footer>
+	</div>
+</html>
